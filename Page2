@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <script>
+            function getCookie(name) {
+                var dc = document.cookie;
+                var prefix = name + "=";
+                var begin = dc.indexOf("; " + prefix);
+                if (begin == -1) {
+                    begin = dc.indexOf(prefix);
+                    if (begin != 0) return null;
+                }
+                else
+                {
+                    begin += 2;
+                    var end = document.cookie.indexOf(";", begin);
+                    if (end == -1) {
+                    end = dc.length;
+                    }
+                }
+                return decodeURI(dc.substring(begin + prefix.length, end));
+            }
+
+            function goBack() {
+                window.history.back();
+            }
+            
+            window.onload = function(){
+                var hitCount = getCookie("page2HitCount");
+                if(hitCount ===  null){
+                    hitCount = 1;
+                    document.cookie = "page2HitCount=1;expires=Thu, 18 Dec 2020 12:00:00 UTC;path=/";
+                } else {
+                    document.cookie = `page2HitCount=${hitCount+1};expires=Thu, 18 Dec 2020 12:00:00 UTC;path=/`;
+                }
+
+                document
+                    .getElementById("cookie")
+                    .innerText = `Visits: ${hitCount}`;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="cookie">Visits: 1</div>
+        <button onclick="goBack()">Go Back</button>
+    
+</body></html>
