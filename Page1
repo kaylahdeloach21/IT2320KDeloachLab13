@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+<script>function getCookie(name) { ...</script>
+</head>
+<body>
+<div id="url">file:///C:/Users/KaylahD/AppData/Local/Temp/Temp1_717e2ffc37c3678414d9a27a1313a6a6_cbfa8a754b9ac270c6729be3f43834eb%20(1).zip/Lesson/page1.html</div>
+<div id="cookie">Visits: 1; ajs_user_id=null; ajs_anonymous_id="417dcb80-007c-4e49-b726-ba8392e990fa"; amplitude_id_e15f007beaaf99c99655ad40f104ba4b=eyJkZXZpY2VJZCI6IjRjNDNiOGE4LTYzNWYtNDI2NS04ZWMxLTE3NDQxZGE0NjNlZlIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTUzNTA3MzI2ODQ0MiwibGFzdEV2ZW50VGltZSI6MTUzNTA3MzI2ODQ0MiwiZXZlbnRJZCI6MCwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjB9; ajs_group_id=null; page2HitCount=111; _ga=GA1.1.1507284231.1535073244</div>
+<button onclick="goToPageTwo()">Go To Page 2</button>
+<body>
+        <div id="url">file:///C:/Users/KaylahD/AppData/Local/Temp/Temp1_717e2ffc37c3678414d9a27a1313a6a6_cbfa8a754b9ac270c6729be3f43834eb%20(1).zip/Lesson/page1.html</div>
+        <div id="cookie">Visits: 1; ajs_user_id=null; ajs_anonymous_id="417dcb80-007c-4e49-b726-ba8392e990fa"; amplitude_id_e15f007beaaf99c99655ad40f104ba4b=eyJkZXZpY2VJZCI6IjRjNDNiOGE4LTYzNWYtNDI2NS04ZWMxLTE3NDQxZGE0NjNlZlIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTUzNTA3MzI2ODQ0MiwibGFzdEV2ZW50VGltZSI6MTUzNTA3MzI2ODQ0MiwiZXZlbnRJZCI6MCwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjB9; ajs_group_id=null; page2HitCount=111; _ga=GA1.1.1507284231.1535073244</div>
+        <button onclick="goToPageTwo()">Go To Page 2</button>
+    
+</body>
+</html>
